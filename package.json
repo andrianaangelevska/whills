@@ -3,7 +3,7 @@
   "private": true,
   "description": "Journal of the Novvum Whills",
   "version": "1.0.3",
-  "author": "rajinwonderland",
+  "author": "Novvum",
   "dependencies": {
     "@novvum/gatsby-theme-wiki": "^1.0.2",
     "classnames": "^2.2.6",
