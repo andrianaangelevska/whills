@@ -39,9 +39,6 @@ yarn clean
 **Markdown & MDX files**
 All `md` & `mdx` files are found under [`content/*`](https://github.com/Novvum/whills/tree/master/content)
 
-**Theme**
-The docz theme related materials are found under [`src/theme/*`](https://github.com/Novvum/novvum/tree/master/themes/gatsby-theme-wiki/src/theme)
-
 ## Roadmap
 
 - [x] Deploy to Netlify
