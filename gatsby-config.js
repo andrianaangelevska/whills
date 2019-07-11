@@ -5,8 +5,12 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: `The Novvum Whills`,
-    description: `A resource hub for guides, content, tutorial and all things Novvum`,
-    author: `@novvumio`,
+    title: `Novvum Whills`,
+    author: `Novvum`,
+    description: `An extension of the gatsby starter blog, with support for MDX`,
+    siteUrl: `https://whills.novvum.io/`,
+    social: {
+      twitter: `novvumio`,
+    },
   },
 }
