@@ -24,30 +24,30 @@ yarn
 **2. Development**
 
 ```sh
-yarn whills develop
+yarn dev
 ```
 
 **Clean**
 _Removes gatsby generated `public` and `cache` and `yarn.error.logs` subdirectories _
 
 ```sh
-yarn whills clean
+yarn clean
 ```
 
 ## Where to find stuff
 
 **Markdown & MDX files**
-All `md` & `mdx` files are found under [`src/pages/*`](https://github.com/Novvum/novvum/tree/master/clients/whills/src/pages)
+All `md` & `mdx` files are found under [`content/*`](https://github.com/Novvum/whills/tree/master/content)
 
 **Theme**
-The docz theme related materials are found under [`src/theme/*`](https://github.com/Novvum/novvum/tree/master/clients/whills/src/theme)
+The docz theme related materials are found under [`src/theme/*`](https://github.com/Novvum/novvum/tree/master/themes/gatsby-theme-wiki/src/theme)
 
 ## Roadmap
 
 - [x] Deploy to Netlify
-- [ ] File Structure
+- [x] File Structure
 - [ ] Contributor guide
 - [ ] Documentation on frontmatter
-- [ ] Seperate theme into it's own gatsby-theme under `~/themes/@novvum/docz-theme`
+- [x] Seperate theme into it's own gatsby-theme under `~/themes/@novvum/docz-theme`
 - [ ] Figure out a better method for contributing docs
 - [ ] Configure a better incorporation of `react-code-blocks` without relying on `wrapRootElement`
