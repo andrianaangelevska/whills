@@ -1,0 +1,40 @@
+{
+  "name": "whills",
+  "private": true,
+  "description": "Journal of the Novvum Whills",
+  "version": "1.1.1",
+  "author": "rajinwonderland",
+  "dependencies": {
+    "@novvum/gatsby-theme-wiki": "^1.1.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.7.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "now-build": "gatsby build",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novvum/novvum/tree/master/clients/whills"
+  },
+  "bugs": {
+    "url": "https://github.com/novvum/novvum/issues"
+  }
+}
