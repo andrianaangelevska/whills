@@ -5,11 +5,11 @@
 
 A place for documenting guides, tutorials, and process related to [Novvum](https://www.novvum.io).
 
-> Live site [here](https://whills.netlify.com)
+> Live site [here](https://whills.novvum.io)
 
 ## Under the hood
 
-- Configured to deploy to netlify on whills.netlify.com
+- Configured to deploy to netlify on novvum-whills.netlify.com
 
 ## How to run locally
 
