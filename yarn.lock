@@ -1209,11 +1209,10 @@
     tailwindcss "^0.7.4"
     typography "^0.16.17"
     typography-breakpoint-constants "^0.16.19"
-
-"@novvum/gatsby-theme-wiki@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/@novvum/gatsby-theme-wiki/-/gatsby-theme-wiki-1.0.4.tgz#d3cb2e7db8672a0c6c5407e6f9edd3ca3a075f3a"
-  integrity sha512-kZD/BcI+9+FUN9HdGgIePcOXCLdnFHUo+2QezBuuIHBo7390elERnzQr6KJYOYVd4wjdHQFo26/lReZJ3tcUYw==
+"@novvum/gatsby-theme-wiki@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@novvum/gatsby-theme-wiki/-/gatsby-theme-wiki-1.0.3.tgz#4dd24f84461b2ebc2de17c0d1dbd7f08239aba20"
+  integrity sha512-IZE50BL3ty3C7B6vY7KpnyIecphS7RWim79hI29pggxSFOu91PRnIwsAsWC5NvMQQpN/gdTAy/yyQvewEeZEWw==
   dependencies:
     "@microlink/react" "^4.0.0-alpha.1"
     "@novvum/base-theme" "^1.0.4"
@@ -11942,7 +11941,7 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smooth-scroll@^16.0.3:
+smooth-scroll@^16.0.3, smooth-scroll@^16.1.0:
   version "16.1.0"
   resolved "https://registry.npmjs.org/smooth-scroll/-/smooth-scroll-16.1.0.tgz#c811c63db67215d30847745ba0732feb3291947f"
   integrity sha512-V5b8ekIekZ3xJ6f0sPsLgEbN5YT8gX0Q6yNjZXTKgqjH9dBGadZ0P50fhP0rLRBGifc44qfI3rnWNM+lebhJag==
