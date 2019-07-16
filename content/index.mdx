@@ -19,14 +19,6 @@ Regardless of the technologies and tools behind them, a successful design system
 - **It’s accessible**. Applications built with your design system are usable by as many people as possible, no matter how they access the web.
 - **It’s robust**. No matter the product or platform to which your design system is applied, it should perform with grace and minimal bugs.
 
-## Consistency
-
-Your first, most important task when starting out is to define the rules
-of your system, document them, and ensure that everyone follows them. When
-you have clearly documented code standards and best practices in place,
-designers and developers from across your organization are able to easily
-use and, more importantly, contribute to your design system.
-
 # Contributing
 
 ## Working with the codebase
@@ -68,23 +60,23 @@ All of the content can be found in the `content` directory. The file Structure
 is what determines what the links are in the navbar and sidebar.
 
 <img src={contentMap} width="100%" />
-This diagram shows how the `mdx` files map to the various UI elements.
+This diagram shows how the mdx files map to the various UI elements.
 
 ## Sidebar Links
 
-The name of links in the sidebar are determined by the file/folder names.
+The name of the links in the sidebar are determined by the file/folder names.
 We are doing a couple of things to convert the file/folder names to the ones we
 see on the site:
 
 - Numberings are automatically removed from the file name. For example,
   `1-General` is converted to "General". Numbering the files/folders lets us
-  sort the content, but we wouldn't necessarily want to display the numbers.
+  sort the content, but we wouldn't necessarily want to display them on the site.
 - File names are automatically converted to Title Case. i.e. `employee-handbook`
   would be converted to "Employee Handbook".
 
 ### index.mdx files
 
-The `index.mdx` files represent content of the folder. For example,
+The `index.mdx` files represent content for the folder containing it. For example,
 the `content/guides/index.mdx` file is the home page for the guides section
 (when you click the "Guides" link in the top navbar).
 
