@@ -2,10 +2,10 @@
   "name": "whills",
   "private": true,
   "description": "Journal of the Novvum Whills",
-  "version": "2.0.1",
+  "version": "2.0.2-alpha.0",
   "author": "Novvum",
   "dependencies": {
-    "@novvum/gatsby-theme-wiki": "^2.0.1",
+    "@novvum/gatsby-theme-wiki": "^2.0.2-alpha.0",
     "classnames": "^2.2.6",
     "gatsby": "2.13.23",
     "prop-types": "^15.7.2",
